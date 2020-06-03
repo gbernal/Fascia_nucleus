@@ -1,12 +1,12 @@
 ### Data Visualization Code (.py)
 
-In the file [MainGUI.py](https://github.mit.edu/gbernal/Fascia_nucleus/blob/master/Fascia_dataViz/Fascia_sensor_data_plotter/python/MainGUI.py), you must make sure the IP address that it is connecting to is correct, and the same as the one you inputted into the firmware code. This is in line 120:
+In the file [MainGUI.py](https://github.com/gbernal/Fascia_nucleus/blob/master/Fascia_sensor_data_plotter/python/MainGUI.py), you must make sure the IP address that it is connecting to is correct, and the same as the one you inputted into the firmware code. This is in line 120:
 
 ```python
 self.ip = '192.168.0.101'
 ```
 
-Next, take a look at [BCI_Data_Receiver.py](https://github.mit.edu/gbernal/Fascia_nucleus/blob/master/Fascia_dataViz/Fascia_sensor_data_plotter/python/BCI_Data_Receiver.py), and the lines 58-60: 
+Next, take a look at [BCI_Data_Receiver.py](https://github.com/gbernal/Fascia_nucleus/blob/master/Fascia_sensor_data_plotter/python/BCI_Data_Receiver.py), and the lines 58-60: 
 
 ```python
 num_elements = 17
