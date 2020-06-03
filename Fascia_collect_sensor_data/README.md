@@ -89,9 +89,9 @@ We have Python code in place to help visualize the sensor data received over WiF
 In the file [WiFi_Settings.h](https://github.com/gbernal/Fascia_nucleus/blob/master/Fascia_collect_sensor_data/WiFi_Settings.h)
 
 ```arduino
-#define SECRET_SSID "raspi_wifi"
-#define SECRET_PASS "fluidfluid"
-#define HOST_ID     "192.168.0.101"
+#define SECRET_SSID "someWifinet"
+#define SECRET_PASS "passcode"
+#define HOST_ID     "127.0.0.1" //your ip address
 ```
 
 Ensure that `SECRET_SSID` has the name of your private WiFi network, and `SECRET_PASS` has the password to that network. `HOST_ID` should be the IP address of your computer if you type `ifconfig` in your terminal, and find `en0`, include the IP address listed under that.

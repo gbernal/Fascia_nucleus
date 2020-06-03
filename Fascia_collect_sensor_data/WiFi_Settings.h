@@ -8,9 +8,9 @@
 //#define SECRET_SSID "gitgudbruh"
 //#define SECRET_PASS "giganticorchestra203"
 
-#define SECRET_SSID "Rotaryguru2"
-#define SECRET_PASS "rx7turbo2"
-#define HOST_ID     "10.0.0.242"
+#define SECRET_SSID "someWifinet"
+#define SECRET_PASS "passcode"
+#define HOST_ID     "127.0.0.1" //your ip address
 #define PORT_NUM    8899
 
 #define SEND_SIZE 20
