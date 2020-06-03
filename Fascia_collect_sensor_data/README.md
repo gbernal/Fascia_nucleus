@@ -8,7 +8,7 @@ This document explains the usage and functionality specification of the [Fascia_
 
 ### Software
 
-In order to begin running this code, you must have all the required libraries installed. This includes `WiFiNINA`, and `MPU6050` by Electronic Cats, both of which you can get from the Arduino library manager, and `SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library` which you need the modified version of in the repo. This is located in [Fascia_nucleus/Firmware/development/Libraries/SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library](https://github.mit.edu/gbernal/Fascia_nucleus/tree/master/Firmware/development/libraries/SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library). I have made changes to speed up the data acquisition in the library, and reduce wasted wait time. Namely, I made changes to two different functions:
+In order to begin running this code, you must have all the required libraries installed. This includes `WiFiNINA`, and `MPU6050` by Electronic Cats, both of which you can get from the Arduino library manager, and `SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library` which you need the modified version of in the repo. This is located in [Fascia_nucleus/Firmware/development/Libraries/SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library](https://github.com/gbernal/Fascia_nucleus/tree/master/libraries/SparkFun_MAX3010x_Pulse_and_Proximity_Sensor_Library). I have made changes to speed up the data acquisition in the library, and reduce wasted wait time. Namely, I made changes to two different functions:
 
 - `readTemperature()`
 
