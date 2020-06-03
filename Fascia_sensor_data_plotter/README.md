@@ -45,8 +45,8 @@ Once you run the Python GUI program, you should be able to view the signals you 
 
 ### Packet break-down
 
-[detailed packet break-down](https://www.notion.so/c39bc3815621426d9a86594971850b3b)
-
+[detailed packet break-down]
+![](https://github.com/gbernal/Fascia_nucleus/blob/master/imgs/packet%20structure.png)
 Please note: the valid array holds a 1 in the bit location corresponding to the data point in the packet which is invalid. For example, if the PPG data is invalid, then the valid array's 18th bit will be a 1. The index of the bit maps to the location of the data in the packet.
 
 # IMU Data Conversion
