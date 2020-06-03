@@ -1,11 +1,4 @@
-# Fascia_collect_sensor_data 1
 
-Created: May 06, 2020 1:51 AM
-Created By: Walaa Alkhanaizi
-Last Edited By: Walaa Alkhanaizi
-Last Edited Time: May 18, 2020 7:01 PM
-Status: In Progress 🙌
-Type: Architecture Overview
 
 # About
 
